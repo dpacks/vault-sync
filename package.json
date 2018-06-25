@@ -1,0 +1,33 @@
+{
+  "name": "@dpack/vault-sync",
+  "version": "0.1.1",
+  "description": "Sync All dPacks Stored By a dDB-Vaultr Instance As Normal dPacks.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "bin": {
+    "dvault-sync": "./bin.js"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "@ddatabase/core": "ddatabase/core#master",
+    "@ddrive/core": "ddrives/core#master",
+    "@dpack/storage": "dpacks/storage#master",
+    "@dwcore/rem": "dwcore/rem#master",
+    "@dwcore/dwse": "dwcore/dwse#master",
+    "@flockcore/revelation": "flockcore/revelation#master",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "@ddatabase/vaultr": "ddatabase/vaultr#master",
+    "standard": "^10.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
