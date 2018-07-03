@@ -18,7 +18,7 @@
     "@ddatabase/core": "ddatabase/core#master",
     "@ddrive/core": "ddrives/core#master",
     "@dpack/storage": "dpacks/storage#master",
-    "@dwcore/rem": "dwcore/rem#master",
+    "@dwcore/rem": "*",
     "@dwcore/dwse": "dwcore/dwse#master",
     "@flockcore/revelation": "flockcore/revelation#master",
     "minimist": "^1.2.0"
